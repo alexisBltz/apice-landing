@@ -23,10 +23,6 @@ export function Comparativa() {
           <h2 className="mt-3.5 text-[clamp(28px,4.4vw,46px)] leading-[1.05]">
             Otras apps tienen preguntas. Ninguna tiene el puente.
           </h2>
-          <p className="mt-4 text-[17px] leading-relaxed text-niebla">
-            La ventaja no está en tener un banco. Está en cómo se convierte en rutina para el estudiante y en
-            evidencia para quien paga.
-          </p>
         </Reveal>
         <Reveal>
           <div className="overflow-x-auto rounded-[18px] border border-white/10">

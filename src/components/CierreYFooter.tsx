@@ -12,8 +12,8 @@ export function Cierre() {
             <br />
             empieza hoy.
           </h2>
-          <p className="mx-auto my-[22px] mb-[34px] max-w-[46ch] text-lg text-niebla">
-            Sabes dónde estás. Sabes qué te falta. Sabes a dónde vas. Descarga Ápice y da el primer paso.
+          <p className="mx-auto my-[22px] mb-[34px] max-w-[42ch] text-lg text-niebla">
+            Sabes dónde estás y a dónde vas. Da el primer paso.
           </p>
           <div className="flex flex-wrap justify-center gap-3.5">
             <a href="#" className="btn btn-primary" aria-label="Descargar en Google Play">

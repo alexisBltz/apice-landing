@@ -6,10 +6,12 @@ import { Puente } from './components/Puente';
 import { Comparativa } from './components/Comparativa';
 import { Precios } from './components/Precios';
 import { Cierre, Footer } from './components/CierreYFooter';
+import { AscentProgress } from './components/AscentProgress';
 
 export function App() {
   return (
     <>
+      <AscentProgress />
       <Nav />
       <main>
         <Hero />

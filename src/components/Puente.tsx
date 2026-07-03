@@ -22,17 +22,16 @@ export function Puente() {
       <div className="wrap grid grid-cols-1 items-center gap-[60px] md:grid-cols-2">
         <Reveal>
           <span className="eyebrow" style={{ color: '#4536B8' }}>
-            El puente · para el apoderado
+            Para el apoderado
           </span>
           <h2 className="mt-3.5 text-[clamp(28px,4.4vw,46px)] leading-[1.05]">
             Deja de preguntar "¿estudiaste hoy?". Ahora lo sabes.
           </h2>
           <p className="mt-[18px] text-[17px] leading-[1.65] text-niebla">
-            El Parent Dashboard es el corazón de Ápice y lo que ninguna otra app peruana tiene: el avance real
-            de tu hijo, en tiempo real. Curva semanal por materia, alertas cuando una zona entra en rojo, y una
-            recomendación concreta de dónde invertir.
+            El avance real de tu hijo, en vivo. Curva por materia, alertas de zona roja y dónde invertir. Es lo
+            que ninguna otra app peruana tiene.
           </p>
-          <p className="mt-[18px] text-[17px] leading-[1.65] text-niebla">
+          <p className="mt-4 text-[17px] leading-[1.65] text-niebla">
             No vendemos una app. Vendemos <strong className="text-blancoA">certeza sobre tu inversión</strong>.
           </p>
         </Reveal>
