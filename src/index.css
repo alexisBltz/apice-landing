@@ -51,6 +51,17 @@
   .btn-ghost:hover {
     @apply bg-white/[0.08];
   }
+  .app-grid {
+    background-color: #08080d;
+    background-image:
+      linear-gradient(rgba(69, 54, 184, 0.09) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(69, 54, 184, 0.09) 1px, transparent 1px),
+      radial-gradient(circle at 50% 36%, rgba(69, 54, 184, 0.12), transparent 45%);
+    background-size: 22px 22px, 22px 22px, auto;
+  }
+  .text-glow-red {
+    text-shadow: 0 0 14px rgba(255, 81, 95, 0.48);
+  }
 }
 
 @keyframes apiceFloat {

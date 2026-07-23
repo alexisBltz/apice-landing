@@ -27,16 +27,16 @@ export function Hero() {
         <div className="max-w-[580px]">
           <span className="eyebrow">La física del ascenso</span>
           <h1 className="mt-4 text-[clamp(36px,5.4vw,64px)] font-extrabold leading-[0.98]">
-            Llegar es solo el inicio.{' '}
+            No estudies a ciegas.{' '}
             <span
               className="bg-clip-text text-transparent"
               style={{ backgroundImage: 'linear-gradient(120deg, #F0732F 20%, #D9A429)' }}
             >
-              Quédate en la cima.
+              Escala con dirección.
             </span>
           </h1>
           <p className="mt-5 max-w-[46ch] text-[clamp(16px,1.9vw,19px)] leading-relaxed text-niebla">
-            Sabes dónde estás, qué te falta y tu próximo paso. Tu familia ve el avance real.
+            ION te orienta, tus errores dibujan el siguiente paso y tu familia ve evidencia real del ascenso.
           </p>
           <div className="mt-7 flex flex-wrap gap-3.5">
             <a href="#descarga" className="btn btn-primary">

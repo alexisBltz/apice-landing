@@ -51,10 +51,10 @@ const stations: Station[] = [
   },
   {
     alt: '3 900 m',
-    title: 'Tutor Ápice con IA',
+    title: 'Tutor ION con IA',
     accent: '#E8622A',
     badge: 'Con IA',
-    body: 'Resuelve tus dudas paso a paso y te arma resúmenes de cualquier tema en segundos.',
+    body: 'Explica tus dudas paso a paso usando la pregunta como contexto. Sin darte atajos vacíos.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path d="M12 3 l2.2 5.6 L20 9 l-4.4 3.4 L17 18 l-5-3.2 L7 18 l1.4-5.6 L4 9 l5.8-.4Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
@@ -76,9 +76,9 @@ const stations: Station[] = [
   },
   {
     alt: '5 822 m',
-    title: 'Cima — Impulsos',
+    title: 'Impulsos de ascenso',
     accent: '#D9A429',
-    body: 'La moneda que el apoderado recarga y el estudiante invierte en refuerzo. La cima se conquista en familia.',
+    body: 'Los ganas completando misiones y los inviertes en refuerzos o simulacros rápidos. Cada impulso tiene propósito.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path d="M13 3 L5 13 h5 l-1 8 8-10 h-5 l1-8Z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />

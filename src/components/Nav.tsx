@@ -2,6 +2,7 @@ import { Logo } from './Logo';
 
 const links = [
   { href: '#concepto', label: 'Concepto' },
+  { href: '#experiencia', label: 'ION e Impulsos' },
   { href: '#modulos', label: 'Módulos' },
   { href: '#puente', label: 'Para padres' },
   { href: '#mercado', label: 'Comparativa' },

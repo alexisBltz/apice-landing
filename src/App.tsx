@@ -7,6 +7,7 @@ import { Comparativa } from './components/Comparativa';
 import { Precios } from './components/Precios';
 import { Cierre, Footer } from './components/CierreYFooter';
 import { AscentProgress } from './components/AscentProgress';
+import { Experiencia } from './components/Experiencia';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <main>
         <Hero />
         <Concepto />
+        <Experiencia />
         <Modulos />
         <Puente />
         <Comparativa />

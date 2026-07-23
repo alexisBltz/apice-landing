@@ -16,11 +16,11 @@ const free = [
 ];
 
 const premium = [
-  'Tutor Ápice con IA — dudas y resúmenes',
+  'Tutor ION — explicaciones con contexto',
   'Preguntas ilimitadas + simulacros',
   'Genera preguntas desde tus PDFs',
   'Dashboard completo para el apoderado',
-  'Impulsos activos, sin anuncios',
+  'Refuerzos y herramientas Premium, sin anuncios',
 ];
 
 export function Precios() {
@@ -61,12 +61,12 @@ export function Precios() {
                 Mejor valor
               </span>
               <span className="font-mono text-[11px] uppercase tracking-widest text-doradoLit">
-                Premium · lo activa el apoderado
+                Premium · familiar o autofinanciado
               </span>
               <div className="mb-0.5 mt-3 font-display text-[46px] font-extrabold">
-                S/. 49<span className="text-[20px] text-niebla">/mes</span>
+                S/. 19.90<span className="text-[20px] text-niebla">/mes</span>
               </div>
-              <span className="text-sm text-niebla">o S/. 420 al año · ahorras 29%</span>
+              <span className="text-sm text-niebla">o S/. 149.90 al año · ahorras 37%</span>
               <ul className="my-[22px] flex flex-col gap-3">
                 {premium.map((f) => (
                   <li key={f} className="flex items-start gap-2.5 text-[14.5px]">
