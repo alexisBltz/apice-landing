@@ -34,9 +34,8 @@ export function Footer() {
     <footer className="border-t border-white/10 py-[40px_0_56px] pb-14 pt-10">
       <div className="wrap flex flex-wrap items-center justify-between gap-5">
         <div>
-          <a href="#top" className="flex items-center gap-2.5 font-display text-lg font-extrabold text-blancoA">
-            <Logo size={24} />
-            Ápice
+          <a href="#top" className="flex items-center text-blancoA" aria-label="Ápice, inicio">
+            <Logo size={42} />
           </a>
           <p className="mt-2.5 text-[13px] text-niebla2">Preparación preuniversitaria UNSA · Arequipa, Perú</p>
         </div>

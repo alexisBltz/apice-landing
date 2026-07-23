@@ -1,5 +1,5 @@
 import { RidgeCanvas } from './RidgeCanvas';
-import { PhoneMockup } from './PhoneMockup';
+import { IonHero } from './IonHero';
 
 const stats = [
   { n: '<30s', l: 'al primer diagnóstico' },
@@ -22,11 +22,11 @@ export function Hero() {
         }}
       />
 
-      <div className="wrap relative grid min-h-[calc(100vh-64px)] grid-cols-1 items-center gap-10 py-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6 lg:py-10">
+      <div className="wrap relative grid min-h-[calc(100vh-64px)] grid-cols-1 items-center gap-7 py-12 lg:grid-cols-[0.92fr_1.08fr] lg:gap-2 lg:py-8">
         {/* Columna texto */}
-        <div className="max-w-[580px]">
+        <div className="relative z-10 max-w-[610px]">
           <span className="eyebrow">La física del ascenso</span>
-          <h1 className="mt-4 text-[clamp(36px,5.4vw,64px)] font-extrabold leading-[0.98]">
+          <h1 className="mt-4 text-[clamp(40px,5.2vw,72px)] font-extrabold leading-[0.94]">
             No estudies a ciegas.{' '}
             <span
               className="bg-clip-text text-transparent"
@@ -35,8 +35,9 @@ export function Hero() {
               Escala con dirección.
             </span>
           </h1>
-          <p className="mt-5 max-w-[46ch] text-[clamp(16px,1.9vw,19px)] leading-relaxed text-niebla">
-            ION te orienta, tus errores dibujan el siguiente paso y tu familia ve evidencia real del ascenso.
+          <p className="mt-6 max-w-[44ch] text-[clamp(16px,1.7vw,19px)] leading-relaxed text-niebla">
+            ION convierte cada error en una ruta clara. Tú sabes qué reforzar y tu familia ve evidencia real
+            del ascenso.
           </p>
           <div className="mt-7 flex flex-wrap gap-3.5">
             <a href="#descarga" className="btn btn-primary">
@@ -56,9 +57,9 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Columna mockup */}
-        <div className="flex justify-center lg:justify-end">
-          <PhoneMockup />
+        {/* Núcleo inteligente de ION */}
+        <div className="relative flex justify-center lg:justify-end">
+          <IonHero />
         </div>
       </div>
     </header>
