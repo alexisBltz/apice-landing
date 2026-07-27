@@ -1,4 +1,4 @@
-import { Logo } from './Logo';
+﻿import { Logo } from './Logo';
 import { Reveal } from './Reveal';
 
 export function Cierre() {
@@ -46,6 +46,7 @@ export function Footer() {
           <a href="/privacidad" className="text-[13.5px] text-niebla transition hover:text-blancoA">
             Privacidad
           </a>
+          <a href="/eliminar-cuenta" className="text-[13.5px] text-niebla transition hover:text-blancoA">Eliminar cuenta</a>
           <a href="https://wa.me/51936224203" className="text-[13.5px] text-niebla transition hover:text-blancoA">
             Soporte
           </a>

@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -383,3 +383,11 @@
     transition: none !important;
   }
 }
+
+.legal-copy h2 { margin: 2.5rem 0 1rem; font-size: 1.75rem; color: white; }
+.legal-copy p, .legal-copy li { color: #b5b4bd; font-size: 1rem; line-height: 1.75; }
+.legal-copy ul, .legal-copy ol { margin: 1rem 0; padding-left: 1.5rem; }
+.legal-copy ul { list-style: disc; }
+.legal-copy ol { list-style: decimal; }
+.legal-copy a:not(.btn) { color: #f0732f; text-decoration: underline; text-underline-offset: 4px; }
+.legal-copy .legal-lead { color: #f5f5f5; font-size: 1.2rem; line-height: 1.7; }
